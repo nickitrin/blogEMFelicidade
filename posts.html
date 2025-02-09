@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Postar!</title>
+</head>
+<body>
+    <form id="postForm">
+        <label for="titlepost">Título</label>
+        <input type="text" id="titlepost" name="titlepost" required>
+        <label for="contentpost">Conteúdo</label>
+        <textarea id="contentpost" name="contentpost" required></textarea>
+        <label for="imagepost">Imagem</label>
+        <input type="file" id="imagepost" accept="image/*">
+        <button type="submit"> Postar</button>
+    </form>
+    
+    <script type="module" src="post.js"></script>
+</body>
+</html>
